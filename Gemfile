@@ -44,6 +44,8 @@ group :test do
   gem 'simplecov'
   gem 'rspec-rails'
   gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 
