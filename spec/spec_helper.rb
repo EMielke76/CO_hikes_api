@@ -14,7 +14,7 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'simplecov'
-Simplecov.start 'rails'
+SimpleCov.start 'rails'
 SimpleCov.add_filter ['channels', 'jobs', 'mailers']
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -95,3 +95,4 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+require 'webmock/rspec'
