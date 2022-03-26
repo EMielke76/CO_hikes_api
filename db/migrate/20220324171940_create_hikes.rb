@@ -5,8 +5,8 @@ class CreateHikes < ActiveRecord::Migration[5.2]
       t.string :location
       t.string :website
       t.string :description
-      t.boolean :allows_camping
-      t.boolean :reservations_required
+      t.string :allows_camping
+      t.string :reservations_required
 
       t.timestamps
     end
